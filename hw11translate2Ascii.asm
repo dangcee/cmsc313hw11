@@ -1,4 +1,10 @@
-	section .data
+; Author: Charles Dang
+; Date: May 12, 2025
+; Course: CMSC 313, Section Mon/Wed 830-945
+; Purpose: Translates a number of bytes of data and prints that data to the screen
+
+
+section .data
 	inputBuf db 0x83, 0x6A, 0x88, 0xDE, 0x9A, 0xC3, 0x54, 0x9A ; input
 	newline db 0x0A					   ; Newline character (ASCII 0x0A)
 
